@@ -17,7 +17,7 @@ gulp.task("heroku-copy-client", () => {
 // Heroku copy server files
 gulp.task("heroku-copy-server", () => {
 	return gulp
-		.src(["./package.json", "./package-lock.json", "./Procfile", "./server/server.js"])
+		.src(["./server/package.json", "./server/package-lock.json", "./Procfile", "./server/server.js"])
 		.pipe(gulp.dest("./deploy"));
 });
 

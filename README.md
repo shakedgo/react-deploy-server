@@ -33,7 +33,7 @@ npm run deploy
 3. Go to deploy folder and initialize git:
 
 ```
-cd deploy && git init -y
+cd deploy && git init
 ```
 
 4. Login to heroku: (In case you didn't do it earlier)
